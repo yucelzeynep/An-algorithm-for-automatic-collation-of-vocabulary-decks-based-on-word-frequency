@@ -8,7 +8,7 @@ Here, we provide a sample implementation of RBSC between two sets of words liste
 
 Let our hypothesis be that 'The vocabulary in deck_A are used more frequently than the vocabulary in deck_B'. In this case, the frequency values listed in the second column of deck_A are expected to be higher than those in deck_B. To cpmpute the RBSC coefficient, we compare each pair of numbers in those columns and compute the number of evidence supporting the hypothesis S, and the number of evidence contradicting with the hypothesis, C. In explicit terms, RBSC coefficient is computed simply as,
 
-<img src="https://render.githubusercontent.com/render/math?math=RBSC = \frac{S-C}{S+C}">
+<img src="https://render.githubusercontent.com/render/math?math=RBSC = \frac{S - C}{S + C}">
 
 Obviously, RBSC values are bounded in the range -1 to 1. If the data are all favorable, then the correlation is exactly 1. On the contrary, if the data are all unfavorable, correlation will be -1, whereas a correlation of 0 indicates equal amount of
 favorable and unfavorable evidence.

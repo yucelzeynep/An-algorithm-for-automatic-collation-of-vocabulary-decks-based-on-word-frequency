@@ -16,5 +16,6 @@ For our specific example RBSC coeffiecint is found as rho = 0.707, which suggest
 
 **References**
 [1] D.S. Kerby, “The simple difference formula: An approach to teaching nonparametric correlation,” Comprehensive Psychology, vol.3, pp.11–IT, 2014.
+
 [2] Wiktionary, “Frequency lists.” https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/explanation
 2020. [Accessed 2020-03-15].

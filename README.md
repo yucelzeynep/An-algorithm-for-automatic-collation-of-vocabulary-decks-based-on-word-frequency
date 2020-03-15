@@ -12,7 +12,7 @@ rho = (S-C)/(S+C).
 Obviously, RBSC values are bounded in the range -1 to 1. If the data are all favorable, then the correlation is exactly 1. On the contrary, if the data are all unfavorable, correlation will be -1, whereas a correlation of 0 indicates equal amount of
 favorable and unfavorable evidence.
 
-For our specific example RBSC coeffiecint is found as rho = 0.707, which suggests that the vocabulary in deck_A is used often used more frequenctly then the vocabulary in deck_B.
+For our specific example RBSC coeffiecint is found as rho = 0.707, which suggests that the vocabulary in deck_A is in general used more frequently than the vocabulary in deck_B.
 
 **References**
 

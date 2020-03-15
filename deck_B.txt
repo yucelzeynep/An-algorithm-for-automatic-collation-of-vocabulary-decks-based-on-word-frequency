@@ -1,0 +1,15 @@
+importance	重要性	164
+psychology	心理学	178
+praise	称賛	187
+factor	要因	317
+victory	勝利	372
+courage	勇気	472
+rumor	うわさ	519
+confidence	信頼	607
+success	成功	708
+harmony	調和	978
+advantage	利点	1083
+opportunity	機会	1601
+interest	興味	1871
+security	安全	2273
+economy	経済	145

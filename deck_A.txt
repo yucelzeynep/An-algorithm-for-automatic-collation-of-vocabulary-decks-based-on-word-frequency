@@ -1,0 +1,15 @@
+adventure	冒険	471
+season	季節	660
+science	理科	759
+weather	天気	843
+holiday	休日	1053
+grade	成績	1320
+summer	夏	2218
+information	情報	3063
+dream	夢	5406
+week	週	6706
+plan	計画	7884
+morning	朝	9969
+life	生活	34691
+love	恋愛	46960
+time	時間	71699

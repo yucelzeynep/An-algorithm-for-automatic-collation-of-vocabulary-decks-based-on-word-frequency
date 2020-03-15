@@ -15,6 +15,7 @@ favorable and unfavorable evidence.
 For our specific example RBSC coeffiecint is found as rho = 0.707, which suggests that the vocabulary in deck_A is used often used more frequenctly then the vocabulary in deck_B.
 
 **References**
+
 [1] D.S. Kerby, “The simple difference formula: An approach to teaching nonparametric correlation,” Comprehensive Psychology, vol.3, pp.11–IT, 2014.
 
 [2] Wiktionary, “Frequency lists.” https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/explanation

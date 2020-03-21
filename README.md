@@ -1,5 +1,5 @@
 # RBSC
-Rank biserial correlation
+Rank biserial correlation and generating a pair of decks with desired relative difficulty relation
 
 **rbsc_simple.py**
 This function implements rank biserial correlation (RBSC) based on the definition of *Simple difference formula* of KERBY [1]. 
@@ -44,7 +44,5 @@ For further details on the algorithm, please refer to [4].
 
 [3] https://github.com/anthonyhseb/googlesearch
 
-[4] Zeynep Yücel, Parisa Supitayakul, Akito Monden, Pattara Leelaprute
-An algorithm for automatic collation of vocabulary decks based on word frequency
-IEICE Transactions on Information and Systems, 2020 (in press)
+[4] Zeynep Yücel, Parisa Supitayakul, Akito Monden, Pattara Leelaprute, "An algorithm for automatic collation of vocabulary decks based on word frequency", IEICE Transactions on Information and Systems, 2020 (in press)
 

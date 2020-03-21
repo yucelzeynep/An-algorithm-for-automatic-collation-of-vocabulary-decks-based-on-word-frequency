@@ -1,6 +1,7 @@
 # RBSC
 Rank biserial correlation
 
+**rbsc_simple.py**
 This function implements rank biserial correlation (RBSC) based on the definition of *Simple difference formula* of KERBY [1]. 
 According to Kerby's approach, the nonparametric correlation equals the simple difference between the proportion of “favorable” and “unfavorable” evidence, where favorable stands for the pairs supporting the hypothesis and unfavorable for the ones disagreeing with the hypothesis. 
 
@@ -14,9 +15,36 @@ favorable and unfavorable evidence.
 
 For our specific example, RBSC coefficient is found as rho = 0.707, which suggests that the vocabulary in deck_A is in general used more frequently than the vocabulary in deck_B, i.e. the hypothesis is likely to be true. 
 
+**generate_deck_pair.py**
+
+This program builds 2 decks of flash-cards with a desired difficulty relation.
+
+For this example, we consider the cards to involve a country on the front side and its capital on the back. We consider the -a priori- familiarity of the users to the capital to be in direct relation with the difficulty of concerning card.
+
+This familiarity is considered to be proportional to the exposure of the users to the capitals in the news. Since our pool of subjects is entirely Japanese,we rank the cards with respect to the number of Japanese Google news search results. Please see [3] for achieving number of search results in Python. 
+
+We organize the input file such that it includes the following columns, 
+col1: country in katakana 
+col2: capital in katakana 
+col3: country in English 
+col4: capital in English 
+col5: number of search results for country 
+col6: number of search results for capital
+
+So as to achieve a desired level of relative difficulty, we adopt an approach based on RBSC as explained above. 
+
+For further details on the algorithm, please refer to [4].
+
 **References**
 
 [1] D.S. Kerby, “The simple difference formula: An approach to teaching nonparametric correlation,” Comprehensive Psychology, vol.3, pp.11–IT, 2014.
 
 [2] Wiktionary, “Frequency lists.” https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/explanation
 2020. [Accessed 2020-03-15].
+
+[3] https://github.com/anthonyhseb/googlesearch
+
+[4] Zeynep Yücel, Parisa Supitayakul, Akito Monden, Pattara Leelaprute
+An algorithm for automatic collation of vocabulary decks based on word frequency
+IEICE Transactions on Information and Systems, 2020 (in press)
+

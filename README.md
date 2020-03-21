@@ -1,4 +1,5 @@
-# RBSC
+# An algorithm for automatic collation of vocabulary decks based on word frequency
+
 Rank biserial correlation and generating a pair of decks with desired relative difficulty relation
 
 **rbsc_simple.py**

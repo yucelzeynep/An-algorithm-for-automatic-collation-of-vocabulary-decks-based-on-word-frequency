@@ -2,6 +2,7 @@
 Rank biserial correlation and generating a pair of decks with desired relative difficulty relation
 
 **rbsc_simple.py**
+
 This function implements rank biserial correlation (RBSC) based on the definition of *Simple difference formula* of KERBY [1]. 
 According to Kerby's approach, the nonparametric correlation equals the simple difference between the proportion of “favorable” and “unfavorable” evidence, where favorable stands for the pairs supporting the hypothesis and unfavorable for the ones disagreeing with the hypothesis. 
 

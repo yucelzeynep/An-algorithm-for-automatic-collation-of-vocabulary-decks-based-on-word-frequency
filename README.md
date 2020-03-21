@@ -26,10 +26,15 @@ This familiarity is considered to be proportional to the exposure of the users t
 
 We organize the input file such that it includes the following columns, 
 col1: country in katakana 
+
 col2: capital in katakana 
+
 col3: country in English 
+
 col4: capital in English 
+
 col5: number of search results for country 
+
 col6: number of search results for capital
 
 So as to achieve a desired level of relative difficulty, we adopt an approach based on RBSC as explained above. 
